@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title class="title">
+      
+    </title>
+  </head>
+  <body>
+    <!--
+    <button class="button" onclick="document.querySelector('.button').innerHTML = 'Loading...'
+      setTimeout(changetext,2000)">
+      start
+    </button>
+    <p>
+
+    </p>
+    
+    <button onclick="qwe()">
+      Add to cart
+    </button>
+    <p class="parag">
+      
+    </p>-->
+
+    <button onclick="messages++">
+      +
+    </button>
+    <button onclick="messages--">
+      -
+    </button>
+
+    <script>
+      /*
+      let  timeoutid;
+      let add = function(){
+        console.log(2+3)
+      }
+      function runtwice(fun){
+        fun()
+        fun()
+      }
+      runtwice(add)
+      runtwice(function (){console.log('12b')})
+
+      function changetext(){
+        document.querySelector('.button').innerHTML = `finished!`
+      }
+      */
+     
+     /*let messages = 0
+      setInterval(function(){
+        document.title = 'App'
+      },2000)
+      setInterval(function(){
+        if(messages === 0){return}
+        document.title = `(${messages})New messages`
+      },4000)
+
+      function qwe(){
+        const element = document.querySelector('.parag')
+        element.innerHTML = 'Added'
+
+        clearTimeout(timeoutid)
+
+        timeoutid = setTimeout(function (){
+          element.innerHTML = ``;
+        }, 2000)
+      }
+
+
+
+      const arrow = ()=>{
+        console.log('fuck you')
+      }
+      arrow()*/
+
+
+      let array = ['egg','apple'].filter((food)=>{
+        if(food != 'egg'){
+          return food
+        }
+      })
+      console.log(array)
+      
+
+    </script>
+  </body>
+</html>
